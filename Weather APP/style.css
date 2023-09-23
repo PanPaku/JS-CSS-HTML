@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(to left, rgb(171, 94, 179), transparent, rgb(31, 48, 201)),
+    linear-gradient(45deg, white, rgb(91, 44, 179), rgb(49, 66, 216));
+}
+
+img {
+    width: 140px;
+    height: 140px;
+	object-fit: contain;
+    
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+button {
+    background-color: rgb(43, 40, 40);
+    color: white;
+    margin-left: 10px;
+}
+
+input {
+    background-color: black;
+    color: white;
+}
+
+.wrapper {
+    background-color: rgb(43, 40, 40);
+    color: white;
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10% ;
+    border: solid white 2px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.headings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 35%;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.city-name {
+    font-size: 30px;
+}
